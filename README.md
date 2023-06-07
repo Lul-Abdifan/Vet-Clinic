@@ -99,9 +99,10 @@ Then enter the password you used during installation
 
 Not applicable
 
+### Live Demo <a name="live-demo"></a>
 
 
-### Deployment
+### Deployment <a name="triangular_flag_on_post-deployment"></a>                           
 
 You can deploy this application using render or gh-pages
 
