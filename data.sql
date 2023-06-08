@@ -25,6 +25,7 @@ VALUES
     ('Blossom', '1998-10-13', 3, TRUE, 17),
     ('Ditto', '2022-05-14', 4, TRUE, 22);
 
+
 -- query multiple tables branch
 
 INSERT INTO owners (name, age)
