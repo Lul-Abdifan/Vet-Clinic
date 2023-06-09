@@ -1,4 +1,3 @@
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -7,9 +6,6 @@
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
@@ -50,9 +46,7 @@
   </ul>
 </details>
 
-
 ### Key Features <a name="key-features"></a>
-
 
 - **Database**
 - **Table**
@@ -60,54 +54,31 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
-
-### Prerequisites
-
-In order to run this project you need:
-- node js
-- git bash 
-
-### Setup
-
-Clone this repository to your desired folder:
-
-### Install
-
-Install this project with:
-
-```sh
-npm install
-```
-
 
 ### Usage
 
 To run the project, execute the following command:
 
-```sh 
+```sh
 
 psql -U postgres
 
 ```
+
 Then enter the password you used during installation
 
 ### Run tests
 
 Not applicable
 
-
-
 ### Deployment
 
 You can deploy this application using render or gh-pages
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 👥 Author <a name="authors"></a>
 
@@ -165,7 +136,7 @@ I would like to thank Microverse for the inspiration given towards this codebase
 - **How do i create a database and how do i confirm it has been created?**
 
   - To create a database, use the following line of code:
-  CREATE DATABASE database_name;
+    CREATE DATABASE database_name;
 
   and to check, use "\l"
 
