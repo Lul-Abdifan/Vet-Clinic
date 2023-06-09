@@ -87,6 +87,7 @@ FROM animals
 WHERE date_of_birth BETWEEN '1990-1-1' AND '2000-12-31'
 GROUP BY species;
 
+
 -- query multiple tables branch
 SELECT animals.name, owners.full_name
 FROM animals
@@ -128,4 +129,5 @@ JOIN owners ON animals.owner_id = owners.id
 GROUP BY owners.full_name
 ORDER BY COUNT(*) DESC 
 LIMIT 1;
+
 
