@@ -131,3 +131,102 @@ ORDER BY COUNT(*) DESC
 LIMIT 1;
 
 
+SELECT animals.name from animals
+JOIN visits ON animals.id = visits.animal_id
+JOIN vets ON visits.vet_id = vets.id
+where vets.name = 'William Tatcher'
+order by visits.date_of_visit DESC
+limit 1;
+
+SELECT COUNT(animals.name) AS animal_count
+FROM animals
+JOIN visits ON visits.animal_id = animals.id
+JOIN vets ON visits.vet_id = vets.id
+WHERE vets.name = 'Stephanie Mendez';
+
+SELECT vets.name, species.name
+FROM vets
+LEFT JOIN specializations ON vets.id = specializations.vet_id
+LEFT JOIN species ON specializations.species_id = species.id;
+
+SELECT animals.name
+FROM animals
+JOIN visits ON animals.id = visits.animal_id
+JOIN vets ON vets.id = visits.vet_id
+WHERE vets.name = 'Stephanie Mendez' AND visits.date_of_visit BETWEEN '2020-04-01' AND '2020-08-30';
+
+
+SELECT animals.name, COUNT(*) AS max_visits
+FROM animals
+JOIN visits ON animals.id = visits.animal_id
+JOIN vets ON visits.vet_id = vets.id
+GROUP BY animals.name
+ORDER BY max_visits DESC
+LIMIT 1;
+
+
+
+SELECT animals.name, visits.date_of_visit
+FROM visits 
+JOIN vets 
+ON visits.vet_id = vets.id
+JOIN animals ON animals.id = visits.animal_id
+WHERE vets.name = 'Maisy Smith'
+ORDER BY visits.date_of_visit
+LIMIT 1;
+
+
+SELECT animals.name AS animal_name, animals.date_of_birth as animal_birth, vets.name AS Doctor, date_of_graduation as Doctor_graduation, visits.date_of_visit as Doctor_visit_date
+FROM animals
+JOIN visits ON animals.id = visits.animal_id
+JOIN vets ON visits.vet_id = vets.id
+ORDER BY visits.date_of_visit DESC
+LIMIT 1;
+
+SELECT max_visited
+FROM (SELECT COUNT(*) as max_animal, species.name as max_visited
+FROM vets 
+JOIN
+visits ON visits.vet_id = vets.id
+JOIN
+animals ON animals.id = visits.animal_id
+JOIN 
+species ON species.id = animals.species_id
+WHERE vets.name = 'Maisy Smith'
+GROUP BY species.name
+ORDER BY max_animal DESC
+LIMIT 1) as most_visits;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
