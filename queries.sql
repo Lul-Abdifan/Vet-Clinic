@@ -164,8 +164,6 @@ GROUP BY animals.name
 ORDER BY max_visits DESC
 LIMIT 1;
 
-
-
 SELECT animals.name, visits.date_of_visit
 FROM visits 
 JOIN vets 
@@ -175,13 +173,20 @@ WHERE vets.name = 'Maisy Smith'
 ORDER BY visits.date_of_visit
 LIMIT 1;
 
-
 SELECT animals.name AS animal_name, animals.date_of_birth as animal_birth, vets.name AS Doctor, date_of_graduation as Doctor_graduation, visits.date_of_visit as Doctor_visit_date
 FROM animals
 JOIN visits ON animals.id = visits.animal_id
 JOIN vets ON visits.vet_id = vets.id
 ORDER BY visits.date_of_visit DESC
 LIMIT 1;
+
+
+SELECT (COUNT(*) - 
+	( SELECT COUNT(*)
+	  FROM visits vs JOIN specializations spec ON vs.vet_id = spec.vet_id
+	  JOIN animals a ON a.species_id = spec.species_id AND vs.animal_id = a.id )
+) AS visits FROM visits;
+
 
 SELECT max_visited
 FROM (SELECT COUNT(*) as max_animal, species.name as max_visited
@@ -196,10 +201,6 @@ WHERE vets.name = 'Maisy Smith'
 GROUP BY species.name
 ORDER BY max_animal DESC
 LIMIT 1) as most_visits;
-
-
-
-
 
 
 
