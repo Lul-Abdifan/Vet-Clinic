@@ -66,3 +66,10 @@ CREATE TABLE specializations (
     FOREIGN KEY (vet_id) REFERENCES vets(id) ON DELETE CASCADE
     primary KEY(animal_id,vet_id,date_of_visit)
 );
+
+
+-- performance_audit
+
+CREATE INDEX idx_visits_animal_id ON visits(animal_id);
+CREATE INDEX idx_visits_vet_id ON visits(vet_id);
+CREATE INDEX idx_owners_email ON owners(email);
