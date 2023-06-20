@@ -91,18 +91,22 @@ You can deploy this application using render or gh-pages
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/abdi-bekele-a63860254/)
 - e-mail: [tasanbannu@gmail.com](mailto:tasanbannu@gmail.com)
 
+👤 **Collins Bawa**
+
+- GitHub: [@CaptainBawa](https://github.com/CaptainBawa)
+- LinkedIn: [@captainbawa](https://www.linkedin.com/in/captainbawa/)
+- Twitter: [@BawaCollins](https://twitter.com/BawaCollins)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Multiple tables**
+- [ ] **Create Database Diagram**
 - [ ] **More complex queries**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -112,7 +116,6 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
@@ -120,7 +123,6 @@ If you like this project, kindly drop a star for me on github.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
@@ -128,7 +130,6 @@ I would like to thank Microverse for the inspiration given towards this codebase
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
 
 ## ❓ FAQ <a name="faq"></a>
 
@@ -145,7 +146,6 @@ I would like to thank Microverse for the inspiration given towards this codebase
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
