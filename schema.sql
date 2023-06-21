@@ -67,7 +67,8 @@ CREATE TABLE specializations (
     primary KEY(animal_id,vet_id,date_of_visit)
 );
 
-
+-- Add an email column to your owners table
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
 -- performance_audit
 
 CREATE INDEX idx_visits_animal_id ON visits(animal_id);
