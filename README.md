@@ -4,11 +4,9 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -19,7 +17,7 @@
 
 # 📖 VetClinicDB <a name="about-project"></a>
 
-**VetClinicDB** This project I used a relational database to create the initial data structure for a vet clinic. I created a table to store animals' information, insert some data into it, and query it.
+**VetClinicDB** Used a relational database to create the initial data structure for a vet clinic. I created a table to store animals' information, insert some data into it, and query it.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -74,16 +72,7 @@ Then enter the password you used during installation
 
 Not applicable
 
-### Live Demo <a name="live-demo"></a>
-
-
-### Deployment <a name="triangular_flag_on_post-deployment"></a>                           
-
-You can deploy this application using render or gh-pages
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 👥 Author <a name="authors"></a>
+## 👥 Authors <a name="authors"></a>
 
 👤 **Abdi**
 
@@ -91,18 +80,22 @@ You can deploy this application using render or gh-pages
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/abdi-bekele-a63860254/)
 - e-mail: [tasanbannu@gmail.com](mailto:tasanbannu@gmail.com)
 
+👤 **Collins Bawa**
+
+- GitHub: [@CaptainBawa](https://github.com/CaptainBawa)
+- LinkedIn: [@captainbawa](https://www.linkedin.com/in/captainbawa/)
+- Twitter: [@BawaCollins](https://twitter.com/BawaCollins)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Multiple tables**
+- [ ] **Create Database Diagram**
 - [ ] **More complex queries**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -112,7 +105,6 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
@@ -120,7 +112,6 @@ If you like this project, kindly drop a star for me on github.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
@@ -128,15 +119,14 @@ I would like to thank Microverse for the inspiration given towards this codebase
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
 
 ## ❓ FAQ <a name="faq"></a>
 
-- **After installing postgresql, how do i start the service before i even create the database?**
+- **After installing Postgresql, how do i start the service before I even create the database?**
 
-  - You can start the service on windows by opening gitbash and executing 'psql -U postgres'
+  - You can start the service on Windows by opening git bash and executing 'psql -U postgres'
 
-- **How do i create a database and how do i confirm it has been created?**
+- **How do I create a database and how do I confirm it has been created?**
 
   - To create a database, use the following line of code:
     CREATE DATABASE database_name;
@@ -145,7 +135,6 @@ I would like to thank Microverse for the inspiration given towards this codebase
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
